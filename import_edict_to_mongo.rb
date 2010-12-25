@@ -1,7 +1,7 @@
 require "rubygems"
 require "kakasi"
 require "iconv"
-
+require 'db'
 # tail -n 2 /usr/share/edict/edict | kakasi -ieuc -Ha
 
 class String
@@ -27,11 +27,13 @@ class Importer
               hiragana = $2
               description = $3
               puts "k| #{kanji.utf8}| r| #{hiragana.romaji}| h| #{hiragana.utf8} description: #{$3}"
+              DB.create_word(:kanji=>kanji.utf8, :hiragana => hiragana.utf8, :romaji => hiragana.romaji.utf8, :desc => $3.utf8)
           end
       end
   end
 end
 
 if __FILE__ == $0
+  DB.database_initialize('edict')
   Importer::import("/usr/share/edict/edict")
 end
