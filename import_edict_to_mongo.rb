@@ -22,7 +22,7 @@ class Importer
       file = open(file_name)
       header =  file.readline
       file.each do |line|
-          if /(.*)\[(.*)\].*[\/](.*)[\/]/.match(line) then
+          if /(.*)\[(.*)\][^\/]*[\/](.*)[\/]/.match(line) then
               kanji = $1
               hiragana = $2
               description = $3
