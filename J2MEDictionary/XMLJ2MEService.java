@@ -23,31 +23,24 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
     Vector bookVector = new Vector();
 
     Font bigFont = Font.getFont(Font.FACE_PROPORTIONAL,Font.STYLE_PLAIN,Font.SIZE_LARGE);
-    StringItem resultItem = new StringItem ("", "");
+    List resultList = new List("List of results", List.IMPLICIT);;
     private final static Command xmlCommand = new Command("Get XML Data", Command.OK, 1);     
     private final static Command clearCommand = new Command("Clear", Command.BACK, 2);     
+    private final static Command selectItem = new Command("Select", Command.ITEM, 3);     
     
     class ReadXML extends Thread {
       
     StringBuffer sb = new  StringBuffer(); 	
     String url = "http://turlewicz.com:4567/edict/^sora.xml";
-    private StringItem resultItem;
       public void displayResult() {
      	    //Display parsed  XML file
      	    for(int i= 0 ; i< bookVector.size() ;i++){
      	    	Book book = (Book) bookVector.elementAt(i);
-     	    	sb.append("\n");
-     	    	sb.append(book.getName());
-     	    	sb.append("\n");
-     	    	sb.append(book.getDescription());
-     	    	sb.append("\n--\n");
+     	    	resultList.append(book.getName(),null);
      	      }	
-     	      resultItem.setLabel("Results:");
-     	      resultItem.setText(sb.toString());
        }
       public void run() {
         try {
-          resultItem.setText(""); 
           //Open http connection
                 HttpConnection httpConnection = (HttpConnection) Connector.open(url);
           bookVector.removeAllElements();  //clear vector with books 
@@ -66,25 +59,21 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
         }
          catch (Exception e) {
                 e.printStackTrace ();
-              resultItem.setLabel ("Error:");
-              resultItem.setText (e.toString ());
 
         }
       }
       public void setUrl(String u){
         url = u;
       }
-      public void setResultItem(StringItem ri){
-        resultItem = ri; 	
-      }
     }
     
     public XMLJ2MEService () {
-        resultItem.setFont(bigFont);
+        //resultList.setFont(bigFont); check if List got this kind of method
         mainForm.append (txtField);
-       	mainForm.append (resultItem);
+        mainForm.append (resultList);
     	  mainForm.addCommand (xmlCommand);
         mainForm.addCommand (clearCommand);
+        mainForm.addCommand (selectItem);
 	      mainForm.setCommandListener (this);
      }
       
@@ -103,14 +92,16 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
      
      if (c == xmlCommand) {
 	        ReadXML readXML = new ReadXML();
-          readXML.setResultItem(resultItem);
           readXML.setUrl("http://turlewicz.com:4567/edict/"+txtField.getString()+".xml");
           readXML.start();
 	
     }
     if (c == clearCommand) {
-       resultItem.setText(""); 
+       mainForm.deleteAll();
+       mainForm.append(txtField); 
 	  }
+    if (c == selectcommand) {
+    }
    }
     private void readXMLData(KXmlParser parser)
 			throws IOException, XmlPullParserException {
@@ -142,6 +133,3 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
 			parser.require(XmlPullParser.END_TAG, null, "title");
 		}
 	}
-
-
-
