@@ -20,7 +20,7 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
     Form mainForm = new Form ("SampleJ2MEXML");
     TextField txtField = new TextField( "search:", "", 50, TextField.ANY);
     //Location of xml file
-    Vector bookVector = new Vector();
+    Vector wordVector = new Vector();
 
     Font bigFont = Font.getFont(Font.FACE_PROPORTIONAL,Font.STYLE_PLAIN,Font.SIZE_LARGE);
     List resultList = new List("List of results", List.IMPLICIT);;
@@ -34,16 +34,17 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
     String url = "http://turlewicz.com:4567/edict/^sora.xml";
       public void displayResult() {
      	    //Display parsed  XML file
-     	    for(int i= 0 ; i< bookVector.size() ;i++){
-     	    	Book book = (Book) bookVector.elementAt(i);
-     	    	resultList.append(book.getName(),null);
+     	    for(int i= 0 ; i< wordVector.size() ;i++){
+     	    	Word word = (Word) wordVector.elementAt(i);
+            StringItem si = new StringItem("",word.getName()+'\n');
+     	    	mainForm.append(si);
      	      }	
        }
       public void run() {
         try {
           //Open http connection
                 HttpConnection httpConnection = (HttpConnection) Connector.open(url);
-          bookVector.removeAllElements();  //clear vector with books 
+          wordVector.removeAllElements();  //clear vector with words 
           //Initilialize XML parser
           KXmlParser parser = new KXmlParser();
           parser.setInput(new InputStreamReader(httpConnection.openInputStream(),"UTF-8"));
@@ -70,7 +71,6 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
     public XMLJ2MEService () {
         //resultList.setFont(bigFont); check if List got this kind of method
         mainForm.append (txtField);
-        mainForm.append (resultList);
     	  mainForm.addCommand (xmlCommand);
         mainForm.addCommand (clearCommand);
         mainForm.addCommand (selectItem);
@@ -100,7 +100,8 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
        mainForm.deleteAll();
        mainForm.append(txtField); 
 	  }
-    if (c == selectcommand) {
+    if (c == selectItem) {
+      System.out.println("selectedItem:"+c);
     }
    }
     private void readXMLData(KXmlParser parser)
@@ -108,27 +109,21 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
 
 			//Parse our XML file
 			parser.require(XmlPullParser.START_TAG, null, "title");
-			Book book = new Book();
+			Word word = new Word();
 
 			while (parser.nextTag() != XmlPullParser.END_TAG) {
 				parser.require(XmlPullParser.START_TAG, null, null);
 				String name = parser.getName();
 				String text = parser.nextText();
 				if (name.equals("name"))
-					book.setName(text);
+					word.setName(text);
 				else if (name.equals("description"))
-					book.setDescription(text);
-				else if (name.equals("author"))
-					book.setAuthor(text);
-				else if (name.equals("rating"))
-					book.setRating(text);
-				else if (name.equals("available"))
-					book.setAvailable(text);
+					word.setDescription(text);
 											
 			parser.require(XmlPullParser.END_TAG, null, name);
 			}
 			
-			bookVector.addElement(book);
+			wordVector.addElement(word);
 			
 			parser.require(XmlPullParser.END_TAG, null, "title");
 		}
