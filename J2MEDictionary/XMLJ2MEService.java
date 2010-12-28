@@ -14,20 +14,20 @@ import javax.microedition.io.*;
 import java.io.*;
 import java.util.Vector;
 
-public class XMLJ2MEService extends MIDlet implements CommandListener {
+public class XMLJ2MEService extends MIDlet implements CommandListener, ItemStateListener {
 
     //Form Name
     Form mainForm = new Form ("SampleJ2MEXML");
+    Form detailsForm = new Form ("WordDetails");
     TextField txtField = new TextField( "search:", "", 50, TextField.ANY);
+    StringItem wordDetails = new StringItem("","");
     //Location of xml file
     Vector wordVector = new Vector();
-
-    Font bigFont = Font.getFont(Font.FACE_PROPORTIONAL,Font.STYLE_PLAIN,Font.SIZE_LARGE);
-    List resultList = new List("List of results", List.IMPLICIT);;
+    ChoiceGroup choiceGroup = new ChoiceGroup("Results",Choice.EXCLUSIVE, new String[] {}, null);
+    Font bigFont = Font.getFont(Font.FACE_SYSTEM,Font.STYLE_PLAIN,Font.SIZE_LARGE);
     private final static Command xmlCommand = new Command("Get XML Data", Command.OK, 1);     
     private final static Command clearCommand = new Command("Clear", Command.BACK, 2);     
-    private final static Command selectItem = new Command("Select", Command.ITEM, 3);     
-    
+    private final static Command back = new Command("Back", Command.BACK, 3);     
     class ReadXML extends Thread {
       
     StringBuffer sb = new  StringBuffer(); 	
@@ -36,14 +36,13 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
      	    //Display parsed  XML file
      	    for(int i= 0 ; i< wordVector.size() ;i++){
      	    	Word word = (Word) wordVector.elementAt(i);
-            StringItem si = new StringItem("",word.getName()+'\n');
-     	    	mainForm.append(si);
+     	    	choiceGroup.append(word.getName(),null);
      	      }	
        }
       public void run() {
         try {
           //Open http connection
-                HttpConnection httpConnection = (HttpConnection) Connector.open(url);
+          HttpConnection httpConnection = (HttpConnection) Connector.open(url);
           wordVector.removeAllElements();  //clear vector with words 
           //Initilialize XML parser
           KXmlParser parser = new KXmlParser();
@@ -60,7 +59,6 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
         }
          catch (Exception e) {
                 e.printStackTrace ();
-
         }
       }
       public void setUrl(String u){
@@ -69,12 +67,16 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
     }
     
     public XMLJ2MEService () {
-        //resultList.setFont(bigFont); check if List got this kind of method
+        wordDetails.setFont(bigFont);
         mainForm.append (txtField);
+        mainForm.append (choiceGroup);
     	  mainForm.addCommand (xmlCommand);
         mainForm.addCommand (clearCommand);
-        mainForm.addCommand (selectItem);
 	      mainForm.setCommandListener (this);
+        mainForm.setItemStateListener (this);
+        detailsForm.append (wordDetails);
+        detailsForm.addCommand (back);
+        detailsForm.setCommandListener (this);
      }
       
     public void startApp () {
@@ -87,21 +89,30 @@ public class XMLJ2MEService extends MIDlet implements CommandListener {
     public void destroyApp (boolean unconditional) {
     }  
 
+
+   public void itemStateChanged (Item item) {
+      if (item == choiceGroup) {
+        int index = choiceGroup.getSelectedIndex ();
+        Word w = (Word) wordVector.elementAt(index);
+        wordDetails.setLabel(w.getName()+'\n');
+        wordDetails.setText(w.getDescription());
+        Display.getDisplay (this).setCurrent (detailsForm);
+      }
+   }
+
    public void commandAction(Command c, Displayable d) {
-     
-     
      if (c == xmlCommand) {
 	        ReadXML readXML = new ReadXML();
           readXML.setUrl("http://turlewicz.com:4567/edict/"+txtField.getString()+".xml");
           readXML.start();
-	
     }
     if (c == clearCommand) {
-       mainForm.deleteAll();
-       mainForm.append(txtField); 
+       //mainForm.deleteAll();
+       //mainForm.append(txtField); 
+       choiceGroup.deleteAll();
 	  }
-    if (c == selectItem) {
-      System.out.println("selectedItem:"+c);
+    if (c == back) {
+      Display.getDisplay (this).setCurrent (mainForm);
     }
    }
     private void readXMLData(KXmlParser parser)
