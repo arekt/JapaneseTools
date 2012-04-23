@@ -1,0 +1,308 @@
+今回	こんかい	(n-adv,n-t) now; this time; lately; (P)
+紹介	しょうかい	(n,vs,adj-no) introduction; referral; (P)
+パターン	(n) pattern; (P)
+似る	にる	(v1,vi) to resemble; to look like; to take after; to be similar (in status, condition, etc.); to be close; to be alike; to be like; (P)
+形	かたち	(n) form; shape; figure; visage; (P)
+アプリケーション	(n) application; (P)
+ビュー	(n) view; (P)
+追加	ついか	(n,vs,adj-no) addition; supplement; append (e.g. to a file); appendix; (P)
+テンプレート	(n) temperate; template
+ヘルパー	(n) helper; (P)
+メソッド	(n) method
+多く	おおく	(adv) many; much; largely; abundantly; mostly
+複雑	ふくざつ	(adj-na) complex; complicated; (P)
+ビュー	(n) view; (P)
+ロジック	(n) logic; (P)
+持つ	もつ	(v5t) to hold; to carry; to possess; (P)
+場合	ばあい	(n-adv,n) case; situation; (P)
+利用	りよう	(n,vs) use; utilization; utilisation; application; (P)
+オブジェクト指向	オブジェクトしこう	(n,adj-no) object-oriented
+アプローチ	(n,vs,abbr) approach; approach shot; (P)
+コード	(n) code; cord; chord; (P)
+すっきり	(adv,adv-to,vs,on-mim) feeling refreshed; feeling fine; feeling clear-headed; shapely; neatly; refinedly; cleanly; without trouble; clearly; plainly; distinctly; completely; thoroughly; not at all (with negative sentence); (P)
+整理	せいり	(n,vs) sorting; arrangement; organization; putting in order; adjustment; regulation; liquidation; (P)
+仕組み	しくみ	(n,vs) structure; construction; arrangement; contrivance; plan; plot; contrivance; (P)
+対象	たいしょう	(n,adj-no) target; object (of worship, study, etc.); subject (of taxation, etc.); (P)
+アプリケーション	(n) application; (P)
+下に	しもに	(adv) down; below; downward
+示す	しめす	(v5s,vt) to denote; to show; to point out; to indicate; to exemplify; (P)
+ユーザ	(n) user
+プロファイル	(n) profile
+頁	ページ	(n,uk) page; (P)
+関する	かんする	(vs-s) to concern; to be related; (P)
+各種	かくしゅ	(n,adj-no) every kind; all sorts; (P)
+情報	じょうほう	(n) news; gossip; (military) intelligence; information (data contained in characters, signals, code, etc.); (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+内容	ないよう	(n) subject; contents; matter; substance; detail; import; (P)
+アバター	(n) avatar; incarnation of an immortal being (Hindu); icon or representation of a user in a shared virtual reality
+画像	がぞう	(n) image; picture; portrait; (P)
+フルネーム	(n) full name
+記述	きじゅつ	(n,vs) description; descriptor; (P)
+簡単	かんたん	(adj-na,n) simple; easy; brief; uncomplicated; (P)
+略歴	りゃくれき	(n) brief personal record; short curriculum vitae; short CV
+フィード	(n) feed
+リンク	(n,vs) link; directory entry; rink; (P)
+入力	にゅうりょく	(n,vs) input; (data) entry; (P)
+単純	たんじゅん	(adj-na,n) simplicity; simple; uncomplicated; (P)
+構造	こうぞう	(n) structure; construction; (P)
+余り	あまり	(adj-na,adv,adj-no,n,n-suf,uk) remainder; rest; balance; remains; scraps; residue; remnant; not very (with negative sentence); not much; surplus; excess; fullness; too much; overjoyed; overwhelmed; (P)
+就いて	ついて	(exp,uk) about; concerning; as to; regarding
+正しく	まさしく	(adv) surely; no doubt; evidently
+処理	しょり	(n,vs) processing; dealing with; treatment; disposition; disposal; (P)
+代わりに	かわりに	(adv) instead of; for; as; in exchange for; in return (for); to make up for
+デフォルト	(n) default
+他	ほか	(adj-no,n,n-adv) other (esp. places and things); the rest; (P)
+フィールド	(n) field; (P)
+代替	だいたい	(n,vs,adj-f,adj-no) substitution; alternation; alternative; substitute; (P)
+テキスト	(n) text; text book; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+此の様に	このように	(adv,uk) in this manner; in this way; like this
+情報量	じょうほうりょう	(n) information content; information volume
+応じて	おうじて	(exp) in proportion to; according to; depending on
+正しく	まさしく	(adv) surely; no doubt; evidently
+扱う	あつかう	(v5u,vt) to handle; to deal with; to treat; (P)
+条件	じょうけん	(n) condition; conditions; term; terms; requirement; requirements; (P)
+テンプレート	(n) temperate; template
+複雑	ふくざつ	(adj-na) complex; complicated; (P)
+ロジック	(n) logic; (P)
+一部	いちぶ	(n-adv,n) one part; one portion; one section; some; one copy (e.g. of a document); (P)
+何処か	どこか	(exp,n,adv,uk) somewhere; anywhere; in some respects; (P)
+他に	ほかに	(adv) in addition; besides; (P)
+移す	うつす	(v5s,vt) to change; to swap; to substitute; to transfer; to change the object of one's interest or focus; to spend or take time; to infect; to permeate something with the smell or colour of something; (P)
+テンプレート	(n) temperate; template
+すっきり	(adv,adv-to,vs,on-mim) feeling refreshed; feeling fine; feeling clear-headed; shapely; neatly; refinedly; cleanly; without trouble; clearly; plainly; distinctly; completely; thoroughly; not at all (with negative sentence); (P)
+形	かたち	(n) form; shape; figure; visage; (P)
+関連	かんれん	(n,adj-no,vs,suf) relation; connection; relevance; (P)
+モデル	(n) model; (P)
+側	そば	(n) near; close; beside; vicinity; proximity; besides; while; third person; (P)
+抽出	ちゅうしゅつ	(n,vs,adj-no) extraction; abstraction; selection (from a group); sampling; eduction
+訳にはいきません	わけにはいきません	(exp,uk) impossible to do (although wants to)
+解決策	かいけつさく	(n) solution; solution strategy
+ヘルパー	(n) helper; (P)
+考える	かんがえる	(v1,vt) to consider; to think about; (P)
+既に	すでに	(adv,uk) already; too late; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+中身	なかみ	(n,adj-no) contents; interior; substance; filling; (sword) blade; (P)
+現在	げんざい	(n-adv,n-t) now; current; present; present time; as of; (P)
+かどうか	(exp) whether or not (in phrases like "I don't know whether or not I can come"); (P)
+判断	はんだん	(n,vs) judgement; judgment; decision; adjudication; conclusion; decipherment; divination; (P)
+ファイル名	ファイルめい	(n) file-name
+返す	かえす	(v5s,vt,suf) to return (something); to restore; to put back; to turn over; to turn upside down; to overturn; to pay back; to retaliate; to reciprocate; (after the -masu stem of a verb) to repeat ...; (P)
+更に	さらに	(adv,conj,uk) furthermore; again; after all; more and more; moreover; even more; (P)
+として	(exp) as (i.e. in the role of); for (i.e. from the viewpoint of); apart from... (used to change the topic); (before a negative form) even (e.g. "not even a single person"); (P)
+抽出	ちゅうしゅつ	(n,vs,adj-no) extraction; abstraction; selection (from a group); sampling; eduction
+方法	ほうほう	(n) method; process; manner; way; means; technique; (P)
+問題	もんだい	(n) problem; question; (P)
+其れ等	それら	(n,uk) those (near the second person); (P)
+グローバル	(adj-na,n) global; (P)
+名前空間	なまえくうかん	(n) namespace
+単なる	たんなる	(adj-pn) mere; simple; sheer; (P)
+全く	まったく	(adv,int,abbr) really; truly; entirely; completely; wholly; perfectly; indeed; good grief (expression of exasperation); (P)
+オブジェクト指向	オブジェクトしこう	(n,adj-no) object-oriented
+点	ちょぼ	(n,uk) dot; point; mark; gidayuu musicians (in kabuki)
+ケース	(n) case (e.g. receptacle, condition, event, legal action, letter style, etc.); Computer-Aided Software Engineering; CASE; (P)
+用語	ようご	(n) term; terminology; wording; choice of words; phraseology; (P)
+使う	つかう	(v5u,vt,id) to use (a thing, method, etc.); to make use of; to put to use; to use (a person, animal, puppet, etc.); to employ; to handle; to manage; to manipulate; to use (time, money, etc.); (P)
+例	れい	(n,pref,adj-no) custom; practice; habit; usual; said; aforementioned; instance; example; case; illustration; usage; precedent; annual; (P)
+として	(exp) as (i.e. in the role of); for (i.e. from the viewpoint of); apart from... (used to change the topic); (before a negative form) even (e.g. "not even a single person"); (P)
+適す	てきす	(v5s,vi) to fit; to suit
+追加	ついか	(n,vs,adj-no) addition; supplement; append (e.g. to a file); appendix; (P)
+通常	つうじょう	(adj-no,n-adv,n-t) common; general; normal; usual; (P)
+インストール	(n,vs) install
+参照	さんしょう	(n,vs) reference; bibliographical reference; consultation; browsing (e.g. when selecting a file to upload on a computer); checking out; (P)
+追加	ついか	(n,vs,adj-no) addition; supplement; append (e.g. to a file); appendix; (P)
+コマンド	(n) (computer) command; commando; (P)
+実行	じっこう	(n,vs) practice; practise; performance; execution (e.g. program) (programme); realization; realisation; implementation; (P)
+対して	たいして	(exp) for; in regard to; per
+為れる	される	(v1,uk) honorific or passive form of the verb "suru"
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+ジェネレータ	(n) generator
+実行	じっこう	(n,vs) practice; practise; performance; execution (e.g. program) (programme); realization; realisation; implementation; (P)
+同時に	どうじに	(adv,conj) coincident with; while; simultaneously
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+全て	すべて	(adj-no,n-adv,n) all; the whole; entirely; in general; wholly; overall; (P)
+継承	けいしょう	(n,vs) inheritance; succession; accession
+共通	きょうつう	(adj-na,n,adj-no,vs,n-suf) commonness; community; to be common; to be shared; -wide; (P)
+機能	きのう	(n,vs) function; facility; faculty; feature; (P)
+其処で	そこで	(conj,uk) so; accordingly; now; then; thereupon; therefore; (P)
+定義	ていぎ	(n,vs) definition; (P)
+クラス	(n) class; (P)
+通り	とおり	(n-adv,n,ctr) avenue; street; way; road; coming and going; street traffic; flow (of water, air, etc.); transmission (of sound); reach (e.g. of voice); fame; reputation; popularity; (P)
+単純	たんじゅん	(adj-na,n) simplicity; simple; uncomplicated; (P)
+殆ど	ほとんど	(n-adv,n-t,uk) mostly; nearly; practically; well-nigh; almost invariably; all but; just about; almost; (P)
+仕組み	しくみ	(n,vs) structure; construction; arrangement; contrivance; plan; plot; contrivance; (P)
+整理	せいり	(n,vs) sorting; arrangement; organization; putting in order; adjustment; regulation; liquidation; (P)
+先ず	まず	(adv,uk) first (of all); to start with; about; almost; anyway; well; now; hardly (with neg. verb); (P)
+アクション	(n) action; (P)
+修正	しゅうせい	(n,vs) amendment; correction; revision; modification; alteration; retouching; update; fix; (P)
+現状	げんじょう	(n,adj-no) present condition; existing state; status quo; (P)
+通常	つうじょう	(adj-no,n-adv,n-t) common; general; normal; usual; (P)
+取得	とりえ	(n,iK) worth; redeeming feature; merit; gain; profit; (P)
+ラップ	(n,vs,abbr) lap; wrap; cling film; rap; (P)
+置き換える	おきかえる	(v1,vt) to replace; to move; to change the position of
+インスタンス	(n) instance
+返す	かえす	(v5s,vt,suf) to return (something); to restore; to put back; to turn over; to turn upside down; to overturn; to pay back; to retaliate; to reciprocate; (after the -masu stem of a verb) to repeat ...; (P)
+レコード	(n) record (e.g. LP); record (e.g. athletics); (P)
+全て	すべて	(adj-no,n-adv,n) all; the whole; entirely; in general; wholly; overall; (P)
+委譲	いじょう	(n,vs) transfer; assignment
+後ほど	のちほど	(adv,n) later on; eventually; afterwards
+詳しく	くわしく	(adv) in detail; fully; minutely; at length
+説明し	ときあかし	(n,vs) explanation; exposition
+対象	たいしょう	(n,adj-no) target; object (of worship, study, etc.); subject (of taxation, etc.); (P)
+変わった	かわった	(adj-f) another; different; various; particular; unusual; novel; peculiar
+拘らず	かかわらず	(exp) in spite of; regardless of
+以前	いぜん	(n-adv,n-t) ago; since; before; previous; (P)
+同じよう	おなじよう	(adj-na) similar
+動作	どうさ	(n,vs) action; movements; motions; bearing; behaviour; behavior; execution; actuation; operation; manners; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+修正	しゅうせい	(n,vs) amendment; correction; revision; modification; alteration; retouching; update; fix; (P)
+部分	ぶぶん	(n) portion; section; part; (P)
+次のように	つぎのように	(adv) in the following manner; as follows
+置き換える	おきかえる	(v1,vt) to replace; to move; to change the position of
+探す	さがす	(v5s,vt) to search (for something lost); to seek (a suspect in a crime); to search (for something desired, needed); to look for; (P)
+注意	ちゅうい	(n,vs) caution; being careful; attention (heed); warning; advice; (P)
+幾つか	いくつか	(adj-no,uk) (a) few; some; several
+例えば	たとえば	(adv) for example; e.g.; (P)
+呼び出す	よびだす	(v5s,vt) to summon; to call (e.g. phone); to convene; to decoy; to lure; to invoke (e.g. subroutine); to call; (P)
+略	ほぼ	(adv,uk) almost; roughly; approximately; (P)
+参照	さんしょう	(n,vs) reference; bibliographical reference; consultation; browsing (e.g. when selecting a file to upload on a computer); checking out; (P)
+呼び出す	よびだす	(v5s,vt) to summon; to call (e.g. phone); to convene; to decoy; to lure; to invoke (e.g. subroutine); to call; (P)
+移動	いどう	(n,vs) removal; migration; movement; mobile (e.g. communications); (P)
+同じく	おなじく	(adv,conj,vs) similarly; same (idea); same (name)
+渡す	わたす	(v5s,vt) to ferry across (a river, etc.); to carry across; to traverse; to lay across; to build across; to hand over; to hand in; to pass; to give; to transfer; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+整理	せいり	(n,vs) sorting; arrangement; organization; putting in order; adjustment; regulation; liquidation; (P)
+取り出す	とりだす	(v5s,vt) to take out; to produce; to pick out; to fetch; to retrieve; (P)
+点	ちょぼ	(n,uk) dot; point; mark; gidayuu musicians (in kabuki)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+内容	ないよう	(n) subject; contents; matter; substance; detail; import; (P)
+存在	そんざい	(n,vs,adj-no) existence; being; (P)
+其れに	それに	(conj,uk) besides; moreover; (P)
+依存	いぞん	(n,vs) dependence; dependent; reliance
+変わる	かわる	(v5r,vi) to change; to be transformed; to be altered; to vary; to move to; to be different; to be uncommon; to be unusual; (P)
+重複	じゅうふく	(n,vs,adj-no) duplication; repetition; overlapping; redundancy; restoration; (P)
+ファクタリング	(n) factoring
+生成	せいせい	(n,vs) creation; generation; formation; derivation
+処理	しょり	(n,vs) processing; dealing with; treatment; disposition; disposal; (P)
+扱う	あつかう	(v5u,vt) to handle; to deal with; to treat; (P)
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+パラメータ	(n,adj-no) parameter
+両方	りょうほう	(n,adj-no) both sides; both parties; (P)
+呼び出す	よびだす	(v5s,vt) to summon; to call (e.g. phone); to convene; to decoy; to lure; to invoke (e.g. subroutine); to call; (P)
+同じよう	おなじよう	(adj-na) similar
+置き換える	おきかえる	(v1,vt) to replace; to move; to change the position of
+これ等	これら	(pn,adj-no,uk) these
+修正	しゅうせい	(n,vs) amendment; correction; revision; modification; alteration; retouching; update; fix; (P)
+以下	いか	(n) not exceeding; and downward; ... and below; below (e.g. standard); under (e.g. a level); the below-mentioned; the following; the rest; (P)
+読み込み	よみこみ	(n) read in
+直す	なおす	(v5s,vt,aux-v) to cure; to heal; to fix; to correct; to repair; to do over again (after -masu base of verb); to replace; to put back as it was; to convert (into a different state); (P)
+全く	まったく	(adv,int,abbr) really; truly; entirely; completely; wholly; perfectly; indeed; good grief (expression of exasperation); (P)
+同じよう	おなじよう	(adj-na) similar
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+改善	かいぜん	(n,vs,adj-no,uk) betterment; improvement; kaizen (Japanese business philosophy of continuous improvement); (P)
+余地	よち	(n) place; room; margin; scope; (P)
+部分	ぶぶん	(n) portion; section; part; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+内容	ないよう	(n) subject; contents; matter; substance; detail; import; (P)
+同じよう	おなじよう	(adj-na) similar
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+削除	さくじょ	(n,vs,adj-no) elimination; cancellation; deletion; erasure; DEL (key); (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+文字列	もじれつ	(n) character string
+生	き	(n,pref) pure; undiluted; raw; crude
+プログラム	(n,vs) program; programme; (P)
+解決法	かいけつほう	(n) solution; way out
+移動	いどう	(n,vs) removal; migration; movement; mobile (e.g. communications); (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+やり方	やりかた	(n) manner of doing; way; method; means; (P)
+高々	たかだか	(adv) very high; at most; at best
+要素	ようそ	(n) component; factor; item (e.g. in list); element (e.g. in array); member (e.g. data structure); (P)
+出力	しゅつりょく	(n,vs) output (e.g. of dynamo); (P)
+合理的	ごうりてき	(adj-na) rational; reasonable; logical; (P)
+情報	じょうほう	(n) news; gossip; (military) intelligence; information (data contained in characters, signals, code, etc.); (P)
+略歴	りゃくれき	(n) brief personal record; short curriculum vitae; short CV
+各々	それぞれ	(n-t) each; every; either; respectively; severally; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+手法	しゅほう	(n) technique
+詳細	しょうさい	(adj-na,n) detail; particulars; (P)
+述べる	のべる	(v1,vt) to state; to express; to mention; (P)
+修正	しゅうせい	(n,vs) amendment; correction; revision; modification; alteration; retouching; update; fix; (P)
+似る	にる	(v1,vi) to resemble; to look like; to take after; to be similar (in status, condition, etc.); to be close; to be alike; to be like; (P)
+節	せつ	(n) occasion; time; section (of a literary work); paragraph; verse; stanza; passage; node (of a plant stem); clause; (taxonomical) section; (P)
+重複	じゅうふく	(n,vs,adj-no) duplication; repetition; overlapping; redundancy; restoration; (P)
+其処で	そこで	(conj,uk) so; accordingly; now; then; thereupon; therefore; (P)
+独立	どくりつ	(adj-na,n,vs) independence (e.g. Independence Day); self-support; (P)
+抽出	ちゅうしゅつ	(n,vs,adj-no) extraction; abstraction; selection (from a group); sampling; eduction
+ブロック	(vs,n) to block (e.g. the way); block (lump of something (usu. square), area of town, etc.); bloc; block; physical record (e.g. on magnetic tape); (P)
+役に立つ	やくにたつ	(v5t) to be helpful; to be useful; (P)
+独立	どくりつ	(adj-na,n,vs) independence (e.g. Independence Day); self-support; (P)
+抽出し	ひきだし	(n) drawer; withdrawal; drawing out; (P)
+存在	そんざい	(n,vs,adj-no) existence; being; (P)
+確認	かくにん	(n,vs) affirmation; confirmation; validation; (P)
+値	あたい	(n,adj-no) price; cost; value; worth; merit; value; count; number; variable (computer programming, programing); (P)
+渡す	わたす	(v5s,vt) to ferry across (a river, etc.); to carry across; to traverse; to lay across; to build across; to hand over; to hand in; to pass; to give; to transfer; (P)
+値	あたい	(n,adj-no) price; cost; value; worth; merit; value; count; number; variable (computer programming, programing); (P)
+存在	そんざい	(n,vs,adj-no) existence; being; (P)
+実行	じっこう	(n,vs) practice; practise; performance; execution (e.g. program) (programme); realization; realisation; implementation; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+修正	しゅうせい	(n,vs) amendment; correction; revision; modification; alteration; retouching; update; fix; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+処理	しょり	(n,vs) processing; dealing with; treatment; disposition; disposal; (P)
+抽出し	ひきだし	(n) drawer; withdrawal; drawing out; (P)
+今後	こんご	(n-adv,n-t) from now on; hereafter; (P)
+作る	つくる	(v5r,vt) to make; to produce; to manufacture; to build; to construct; to prepare (food); to brew (alcohol); to raise; to grow; to cultivate; to train; to till; to draw up (a document); (P)
+呼び出す	よびだす	(v5s,vt) to summon; to call (e.g. phone); to convene; to decoy; to lure; to invoke (e.g. subroutine); to call; (P)
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+渡す	わたす	(v5s,vt) to ferry across (a river, etc.); to carry across; to traverse; to lay across; to build across; to hand over; to hand in; to pass; to give; to transfer; (P)
+キス	(n,vs) kiss; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+処理	しょり	(n,vs) processing; dealing with; treatment; disposition; disposal; (P)
+正しく	まさしく	(adv) surely; no doubt; evidently
+機能	きのう	(n,vs) function; facility; faculty; feature; (P)
+設定	せってい	(n,vs) establishment; creation; posing (a problem); setting (movie, novel, etc.); scene; options or preference settings (in computer software); configuration; assignment; (P)
+層	そう	(n,n-suf,ctr) layer; seam; bed; stream; class; sheaf; storey (of a building); story; floor
+見渡す	みわたす	(v5s,vt) to look out over; to survey (scene); to take an extensive view of; (P)
+関連	かんれん	(n,adj-no,vs,suf) relation; connection; relevance; (P)
+関連	かんれん	(n,adj-no,vs,suf) relation; connection; relevance; (P)
+可惜	あったら	(adj-pn) alas; regrettably
+対応	たいおう	(n,vs) interaction; correspondence; coping with; dealing with; support; software support; ability of a computer system to run specific software; (P)
+移動	いどう	(n,vs) removal; migration; movement; mobile (e.g. communications); (P)
+例えば	たとえば	(adv) for example; e.g.; (P)
+作成	さくせい	(n,vs) drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation
+文字列	もじれつ	(n) character string
+関連	かんれん	(n,adj-no,vs,suf) relation; connection; relevance; (P)
+移動	いどう	(n,vs) removal; migration; movement; mobile (e.g. communications); (P)
+作業	さぎょう	(n,vs) work; operation; manufacturing; fatigue duty; (P)
+移動	いどう	(n,vs) removal; migration; movement; mobile (e.g. communications); (P)
+付ける	つける	(v1,vt) to attach; to join; to add; to append; to affix; to stick; to glue; to fasten; to sew on; to apply (ointment); to furnish (a house with); to wear; to put on; to keep a diary; (P)
+用いる	もちいる	(v1,vt) to use; to make use of; to utilize; to utilise; (P)
+制限	せいげん	(n,vs) restriction; restraint; limitation; limit; (P)
+修正	しゅうせい	(n,vs) amendment; correction; revision; modification; alteration; retouching; update; fix; (P)
+間に	あいだに	(adv) while; during (the time when)
+もう一つ	もうひとつ	(n,adv,uk) another; one more
+機能	きのう	(n,vs) function; facility; faculty; feature; (P)
+武事	ぶじ	(n) military affairs; martial arts
+委譲	いじょう	(n,vs) transfer; assignment
+指定	してい	(n,vs) designation; specification; assignment; appointment; pointing at; (P)
+可能	かのう	(adj-na,n) possible; practicable; feasible; (P)
+許可	きょか	(n,vs) permission; approval; authorization; license; to permit; to authorize; (P)
+インタフェース	(n) interface
+細かく	こまかく	(adv) minutely; finely
+制御	せいぎょ	(n,vs) control; governing; checking; suppression; repression; restraint; mastery; management; (P)
+抽出	ちゅうしゅつ	(n,vs,adj-no) extraction; abstraction; selection (from a group); sampling; eduction
+再度	さいど	(n-adv,n-t) twice; again; second time; (P)
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+確認	かくにん	(n,vs) affirmation; confirmation; validation; (P)
+正しく	まさしく	(adv) surely; no doubt; evidently
+表示	ひょうじ	(n,vs) indication; expression; display; presentation; representation; manifestation
+念のため	ねんのため	(adv) (just) making sure; just to be sure
+使用	しよう	(n,vs) use; application; employment; utilization; utilisation; (P)
+バイト	(n,vs,abbr) work (esp. part time or casual); byte; octet; bite; cutting tool; bit; (P)
+行	ぎょう	(n,abbr) line (i.e. of text); row; verse; carya (austerities); samskara (formations); running script (a semi-cursive style of kanji); (P)
+削減	さくげん	(n,vs) cut; reduction; curtailment; (P)
+見た目	みため	(n) appearance; (P)
+変更	へんこう	(n,vs) change; modification; alteration; revision; amendment; (P)
+編集	へんしゅう	(n,vs,adj-no) editing; compilation; editorial (e.g. committee); (P)
+作業	さぎょう	(n,vs) work; operation; manufacturing; fatigue duty; (P)
+簡単	かんたん	(adj-na,n) simple; easy; brief; uncomplicated; (P)
